@@ -1,7 +1,7 @@
 const Commando = require("discord.js-commando");
 const discord = require("discord.js");
 const bot = new Commando.CommandoClient();
-var TOKEN = "NTkxMzU3ODA3ODcwMDgzMDky.XQvnsQ._kJRGUD6U1S6_ccahl4DXbpWLGo";
+var TOKEN = "";
 const http = require("http");
 
 bot.login(TOKEN);
