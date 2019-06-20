@@ -3,7 +3,7 @@ const commando = require("discord.js-commando");
 class DiceRollCommand extends commando.Command {
   constructor(client) {
     super(client, {
-      name: "주사위",
+      name: "roll",
       group: "simple",
       memberName: "roll",
       description: "Rolls a 100 sided dice"
